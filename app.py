@@ -562,7 +562,7 @@ Coût estimé : {st.session_state.estimation:,.0f} FCFA
 --- 
 Envoyé via l'outil d'estimation en ligne"""
 
-        whatsapp_url = "https://wa.me/2290167655962?text=" + quote(message)
+        whatsapp_url = "https://wa.me/2290166815278?text=" + quote(message)
         
         # Bouton WhatsApp
         st.markdown(f"""
@@ -636,4 +636,5 @@ observer.observe(document.body, {
 // Scroll initial
 setTimeout(scrollToActiveContent, 1000);
 </script>
+
 """, unsafe_allow_html=True)
